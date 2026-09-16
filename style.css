@@ -127,3 +127,8 @@ footer {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+article strong {
+    display: block;
+    font-size: 22px;
+    margin-top: 15px;
+}
