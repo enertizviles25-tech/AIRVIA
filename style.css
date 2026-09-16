@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #172b4d;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #172b4d;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #1683e8;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+#inicio {
+    min-height: 500px;
+    background: linear-gradient(
+        rgba(10, 30, 55, 0.75),
+        rgba(10, 30, 55, 0.75)
+    ),
+    url("img/casa.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inicio h2 {
+    font-size: 50px;
+    max-width: 600px;
+}
+
+#inicio p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #1683e8;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b65b8;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+article {
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 150px;
+}
+
+footer {
+    background-color: #172b4d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.productos article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
